@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "675193071840",
+    "project_id": "nomeme-b50bc",
+    "storage_bucket": "nomeme-b50bc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:675193071840:android:b321223ece1598902b4885",
+        "android_client_info": {
+          "package_name": "com.BookShell527.NOMeme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "675193071840-mbb063ombt5bjbs38r27iiqol7mnvped.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMTROnf0yCFbHio2adlY3SkzVvS-A-Ji0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "675193071840-mbb063ombt5bjbs38r27iiqol7mnvped.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
