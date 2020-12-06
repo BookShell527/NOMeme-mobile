@@ -1,6 +1,7 @@
 import 'package:NOMeme/screens/about/about.dart';
 import 'package:NOMeme/screens/contact/contact.dart';
 import 'package:NOMeme/screens/home/home.dart';
+import 'package:connectivity/connectivity.dart';
 import 'package:flutter/material.dart';
 
 class Wrapper extends StatefulWidget {
