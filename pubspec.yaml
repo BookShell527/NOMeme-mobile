@@ -17,6 +17,9 @@ dependencies:
   firebase_core: ^0.5.2+1
   http: ^0.12.2
   connectivity: ^2.0.2
+  dio: ^3.0.10
+  url_launcher: ^5.7.10
+  flutter_spinkit: "^4.1.2"
 
 dev_dependencies:
   flutter_test:

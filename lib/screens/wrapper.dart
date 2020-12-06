@@ -1,7 +1,5 @@
-import 'package:NOMeme/screens/about/about.dart';
 import 'package:NOMeme/screens/contact/contact.dart';
 import 'package:NOMeme/screens/home/home.dart';
-import 'package:connectivity/connectivity.dart';
 import 'package:flutter/material.dart';
 
 class Wrapper extends StatefulWidget {
@@ -10,9 +8,8 @@ class Wrapper extends StatefulWidget {
 }
 
 class _WrapperState extends State<Wrapper> {
-  int _selectedIndex = 1;
+  int _selectedIndex = 0;
   final List<Widget> _widgetOptions = <Widget>[
-    About(),
     Home(),
     Contact()
   ];
@@ -31,7 +28,6 @@ class _WrapperState extends State<Wrapper> {
       ),
       bottomNavigationBar: BottomNavigationBar(
         items: <BottomNavigationBarItem>[
-          BottomNavigationBarItem(label: "About", icon: Icon(Icons.info)),
           BottomNavigationBarItem(label: "Home", icon: Icon(Icons.home)),
           BottomNavigationBarItem(label: "Contact Us", icon: Icon(Icons.call))
         ],
